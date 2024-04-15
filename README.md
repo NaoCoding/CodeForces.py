@@ -3,11 +3,12 @@ Python library for easy accessing CodeForces API
 
 <br>
 
-<h3>FutureContestsNames( ) </h3>
+<h1>Contests</h1>
+<h3>ContestsFutureNames( ) </h3>
 <h5>A list of future / haven't started contests' name</h5>
 
 ```py
-a = FutureContestsNames()  
+a = ContestsFutureNames()  
 ```
 
 <h1>User</h1>
