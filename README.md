@@ -13,16 +13,21 @@ a = ContestsFutureNames()
 ```
 
 <h1>User</h1>
-<h3>UserGeneral( username : str )</h3>
-<h5>A dict include every info from target user</h5>
-
 ```py
-a = UserGeneral("naocoding")
+a = CodeForces.user("naocoding")   #datas of user : naocoding
+print(a.rating)                    #naocoding's rating
 ```
-
-<h3>UserRating( username : str )</h3>
-<h5>An integer of target user's rating</h5>
-
+<h3>List of Class</h3>
 ```py
-a = UserRating("naocoding") 
-```
+self.rating       #rating
+self.handle       #username
+self.country      #where does the user from
+self.lastName     #last name
+self.firstName    #first name
+self.city         #where does the user live
+self.friend       #friend count
+self.rank         #rank
+self.maxRating    #max rating
+self.maxRank      #max rank
+self.organization #organization
+
