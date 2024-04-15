@@ -17,16 +17,16 @@ print(a.rating)                    #naocoding's rating
 <h3>List of Class</h3>
 
 ```py
-self.rating       #rating
-self.handle       #username
-self.country      #where does the user from
-self.lastName     #last name
-self.firstName    #first name
-self.city         #where does the user live
-self.friend       #friend count
-self.rank         #rank
-self.maxRating    #max rating
-self.maxRank      #max rank
-self.organization #organization
+self.rating                        #rating
+self.handle                        #username
+self.country                       #where does the user from
+self.lastName                      #last name
+self.firstName                     #first name
+self.city                          #where does the user live
+self.friend                        #friend count
+self.rank                          #rank
+self.maxRating                     #max rating
+self.maxRank                       #max rank
+self.organization                  #organization
 ```
 
