@@ -11,4 +11,8 @@ def FutureContests() -> list:
     r.reverse()
     return r
 
+def UserRating(username : str):
+    a = json.loads(requests.get("https://codeforces.com/api/user.info?handles="+username).content.decode())
+    return a['result'][0]['rating']
+
 
