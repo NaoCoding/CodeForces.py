@@ -11,7 +11,7 @@ n = FutureContests()
 ```
 
 <h3>UserRating( username : str )</h3>
-<h5>an integer of target user's rating</h5>
+<h5>An integer of target user's rating</h5>
 
 ```py
 a = UserRating("naocoding") 
