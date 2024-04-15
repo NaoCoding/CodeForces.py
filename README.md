@@ -1,5 +1,5 @@
 # CodeForces.py
-Python library for easy accessing CodeForces API
+Python library for easy accessing CodeForces API <br>
 [Source Code Download Link](https://github.com/NaoCoding/CodeForces.py/blob/main/CodeForces.py)
 
 <br>
