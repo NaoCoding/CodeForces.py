@@ -8,6 +8,7 @@ Python library for easy accessing CodeForces API <br>
 
 <h1>User</h1>
 <h3>Example Code</h3>
+
 ```py
 a = CodeForces.user("naocoding")   #datas of user : naocoding
 print(a.rating)                    #naocoding's rating
