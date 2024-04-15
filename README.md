@@ -4,20 +4,17 @@ Python library for easy accessing CodeForces API <br>
 
 <br>
 
-<h1>Contests</h1>
-<h3>ContestsFutureNames( ) </h3>
-<h5>A list of future / haven't started contests' name</h5>
 
-```py
-a = ContestsFutureNames()  
-```
 
 <h1>User</h1>
+
 ```py
 a = CodeForces.user("naocoding")   #datas of user : naocoding
 print(a.rating)                    #naocoding's rating
 ```
+
 <h3>List of Class</h3>
+
 ```py
 self.rating       #rating
 self.handle       #username
@@ -30,4 +27,5 @@ self.rank         #rank
 self.maxRating    #max rating
 self.maxRank      #max rank
 self.organization #organization
+```
 
