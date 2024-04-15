@@ -1,7 +1,7 @@
 import requests
 import json
 
-def FutureContests() -> list:
+def FutureContestsNames() -> list:
     r = []
     a = json.loads(requests.get("https://codeforces.com/api/contest.list?gym=false").content.decode())
     if a['status'] == 'OK':
